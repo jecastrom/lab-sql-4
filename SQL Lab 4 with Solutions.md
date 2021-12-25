@@ -34,7 +34,8 @@ SELECT
 FROM
     film;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393393-bd3f877e-9fc6-43aa-a67a-ba8db45b3146.png)
+![image]()
+<img src="https://user-images.githubusercontent.com/63274055/147393393-bd3f877e-9fc6-43aa-a67a-ba8db45b3146.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
    
