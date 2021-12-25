@@ -1,4 +1,8 @@
 /*
+ Lab SQL Queries 4
+ Jorge Castro DAPT NOV2021
+ */
+/*
  1) Get film ratings.
  */
 SELECT
