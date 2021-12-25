@@ -40,7 +40,7 @@ FROM
 <a href="#Lab-SQL-Queries-4">Go to top</a>
    
 
-1. #### Get release years
+2. #### Get release years
 
 ```sql
 SELECT
@@ -48,7 +48,9 @@ SELECT
 FROM
     film;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393402-1c9903ae-66db-4eea-abfd-7b91f511fa8e.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147393402-1c9903ae-66db-4eea-abfd-7b91f511fa8e.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -61,7 +63,8 @@ FROM
 WHERE
     title LIKE '%armageddon%';
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393411-13ba8c52-80dc-4ac2-9b2a-1c442a3b80b1.png)
+
+<img src="https://user-images.githubusercontent.com/63274055/147393411-13ba8c52-80dc-4ac2-9b2a-1c442a3b80b1.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -75,7 +78,8 @@ FROM
 WHERE
     title REGEXP 'apollo';
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393416-e629a59a-a24c-472c-aa96-a55d02feb75e.png)
+
+<img src="https://user-images.githubusercontent.com/63274055/147393416-e629a59a-a24c-472c-aa96-a55d02feb75e.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -88,7 +92,8 @@ FROM
 WHERE
     title REGEXP 'apollo$';
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393422-b87771c1-d0c3-42ae-9569-85982ec803de.png)
+
+<img src="https://user-images.githubusercontent.com/63274055/147393422-b87771c1-d0c3-42ae-9569-85982ec803de.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -101,7 +106,8 @@ FROM
 WHERE
     title REGEXP 'date';
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393430-065a6097-a9eb-406b-a999-b525eb991920.png)
+
+<img src="https://user-images.githubusercontent.com/63274055/147393430-065a6097-a9eb-406b-a999-b525eb991920.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -117,7 +123,8 @@ ORDER BY
 LIMIT
     10;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393444-d073f5ac-6582-4512-8805-4796d1cf96ea.png)
+
+<img src="https://user-images.githubusercontent.com/63274055/147393444-d073f5ac-6582-4512-8805-4796d1cf96ea.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -133,7 +140,8 @@ ORDER BY
 LIMIT
     10;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393454-fc041d5f-a095-4c66-bc5c-6f5f7492eac7.png)
+
+<img src="https://user-images.githubusercontent.com/63274055/147393454-fc041d5f-a095-4c66-bc5c-6f5f7492eac7.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -147,11 +155,13 @@ FROM
 WHERE
     special_features REGEXP 'behind the scenes';
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393470-27e339a1-1342-4226-8c9c-1c9c5386cd94.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147393470-27e339a1-1342-4226-8c9c-1c9c5386cd94.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
-10. #### List films ordered by release year and title in alphabetical order
+1.  #### List films ordered by release year and title in alphabetical order
 ```sql
 SELECT
     release_year,
@@ -161,7 +171,9 @@ FROM
 ORDER BY
     title ASC;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147393487-d814a396-0ac6-4ef7-9bc6-bc80001b1e05.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147393487-d814a396-0ac6-4ef7-9bc6-bc80001b1e05.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
