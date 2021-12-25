@@ -64,7 +64,7 @@ WHERE
     title LIKE '%armageddon%';
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147393411-13ba8c52-80dc-4ac2-9b2a-1c442a3b80b1.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393411-13ba8c52-80dc-4ac2-9b2a-1c442a3b80b1.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
