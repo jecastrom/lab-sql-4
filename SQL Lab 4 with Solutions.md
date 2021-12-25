@@ -1,6 +1,6 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Lab | SQL Queries 4
+# Lab SQL Queries 4
 
 In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals. You have been using this database for a couple labs already, but if you need to get the data again, refer to the official [installation link](https://dev.mysql.com/doc/sakila/en/sakila-installation.html).
 
@@ -9,15 +9,15 @@ The database is structured as follows:
 
 <br></br>
 
-### Instructions
-- <a href="#1.-Get-film-ratings.">1. Get film ratings.</a>
-2. Get release years.
-3. Get all films with ARMAGEDDON in the title.
-4. Get all films with APOLLO in the title
-5. Get all films which title ends with APOLLO.
-6. Get all films with word DATE in the title.
-7. Get 10 films with the longest title.
-8. Get 10 the longest films.
+### Instructions (Go to)
+- <a href="#Get-film-ratings">Get film ratings</a>
+- <a href="#Get-release-years">Get release years</a>
+- <a href="#Get-all-films-with-ARMAGEDDON-in-the-title">Get all films with ARMAGEDDON in the title</a>
+- <a href="#Get-all-films-with-APOLLO-in-the-title">Get all films with APOLLO in the title</a>
+- <a href="#Get-all-films-which-title-ends-with-APOLLO">Get all films which title ends with APOLLO</a>
+- <a href="#Get-all-films-with-word-DATE-in-the-title">Get all films with word DATE in the title</a>
+- <a href="#Get-10-films-with-the-longest-title">Get 10 films with the longest title</a>
+- <a href="#Get-10-the-longest-films">Get 10 the longest films</a>
 - <a href="#How-many-films-include-Behind-the-Scenes-content">How many films include Behind the Scenes content</a>
 - <a href="#List-films-ordered-by-release-year-and-title-in-alphabetical-order">List films ordered by release year and title in alphabetical order</a>
 
@@ -25,7 +25,7 @@ The database is structured as follows:
 
 ### Solutions:
 
-#### 1. Get film ratings.
+ 1. #### Get film ratings
 
 ```sql
 SELECT
@@ -33,9 +33,10 @@ SELECT
 FROM
     film;
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
    
 
-2. Get release years.
+2. #### Get release years
 
 ```sql
 SELECT
@@ -43,8 +44,9 @@ SELECT
 FROM
     film;
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
-3. Get all films with ARMAGEDDON in the title.
+3. #### Get all films with ARMAGEDDON in the title.
 ```sql
 SELECT
     title
@@ -53,9 +55,10 @@ FROM
 WHERE
     title LIKE '%armageddon%';
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
 
-4. Get all films with APOLLO in the title
+4. #### Get all films with APOLLO in the title
 ```sql
 SELECT
     title
@@ -64,8 +67,9 @@ FROM
 WHERE
     title REGEXP 'apollo';
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
-5. Get all films which title ends with APOLLO.
+5. #### Get all films which title ends with APOLLO
 ```sql
 SELECT
     title
@@ -74,8 +78,9 @@ FROM
 WHERE
     title REGEXP 'apollo$';
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
-6. Get all films with word DATE in the title.
+6. #### Get all films with word DATE in the title
 ```sql
 SELECT
     title
@@ -84,8 +89,9 @@ FROM
 WHERE
     title REGEXP 'date';
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
-7. Get 10 films with the longest title.
+7. #### Get 10 films with the longest title
 ```sql
 SELECT
     title,
@@ -97,8 +103,9 @@ ORDER BY
 LIMIT
     10;
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
-8. Get 10 the longest films.
+8. #### Get 10 the longest films
 ```sql
 SELECT
     title,
@@ -110,6 +117,7 @@ ORDER BY
 LIMIT
     10;
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
 9.  #### How many films include Behind the Scenes content
 ```sql
@@ -121,6 +129,7 @@ FROM
 WHERE
     special_features REGEXP 'behind the scenes';
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
 10. #### List films ordered by release year and title in alphabetical order
 ````sql
@@ -132,5 +141,6 @@ FROM
 ORDER BY
     title ASC;
 ```
+<a href="#Lab-SQL-Queries-4">Go to top</a>
 
 
