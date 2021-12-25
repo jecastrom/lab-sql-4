@@ -50,7 +50,7 @@ FROM
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147393402-1c9903ae-66db-4eea-abfd-7b91f511fa8e.png" alt="Drawing" style="width: 300px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393402-1c9903ae-66db-4eea-abfd-7b91f511fa8e.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
