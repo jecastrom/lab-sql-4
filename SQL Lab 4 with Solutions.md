@@ -79,7 +79,7 @@ WHERE
     title REGEXP 'apollo';
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147393416-e629a59a-a24c-472c-aa96-a55d02feb75e.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393416-e629a59a-a24c-472c-aa96-a55d02feb75e.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -93,7 +93,7 @@ WHERE
     title REGEXP 'apollo$';
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147393422-b87771c1-d0c3-42ae-9569-85982ec803de.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393422-b87771c1-d0c3-42ae-9569-85982ec803de.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -107,7 +107,7 @@ WHERE
     title REGEXP 'date';
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147393430-065a6097-a9eb-406b-a999-b525eb991920.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393430-065a6097-a9eb-406b-a999-b525eb991920.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -124,7 +124,7 @@ LIMIT
     10;
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147393444-d073f5ac-6582-4512-8805-4796d1cf96ea.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393444-d073f5ac-6582-4512-8805-4796d1cf96ea.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -141,7 +141,7 @@ LIMIT
     10;
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147393454-fc041d5f-a095-4c66-bc5c-6f5f7492eac7.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393454-fc041d5f-a095-4c66-bc5c-6f5f7492eac7.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -157,7 +157,7 @@ WHERE
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147393470-27e339a1-1342-4226-8c9c-1c9c5386cd94.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393470-27e339a1-1342-4226-8c9c-1c9c5386cd94.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
@@ -173,7 +173,7 @@ ORDER BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147393487-d814a396-0ac6-4ef7-9bc6-bc80001b1e05.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147393487-d814a396-0ac6-4ef7-9bc6-bc80001b1e05.png" alt="Drawing" style="width: 350px;"/>
 
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
