@@ -161,7 +161,7 @@ WHERE
 
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
-1.  #### List films ordered by release year and title in alphabetical order
+10.  #### List films ordered by release year and title in alphabetical order
 ```sql
 SELECT
     release_year,
