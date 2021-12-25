@@ -5,7 +5,8 @@
 In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals. You have been using this database for a couple labs already, but if you need to get the data again, refer to the official [installation link](https://dev.mysql.com/doc/sakila/en/sakila-installation.html).
 
 The database is structured as follows:
-![DB schema](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/database-sakila-schema.png)
+
+![dvdrental](https://user-images.githubusercontent.com/63274055/147393369-d19b9c63-4080-40b9-afd3-ce108a62e385.png)
 
 <br></br>
 
@@ -33,6 +34,8 @@ SELECT
 FROM
     film;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393393-bd3f877e-9fc6-43aa-a67a-ba8db45b3146.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
    
 
@@ -44,6 +47,8 @@ SELECT
 FROM
     film;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393402-1c9903ae-66db-4eea-abfd-7b91f511fa8e.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 3. #### Get all films with ARMAGEDDON in the title.
@@ -55,6 +60,8 @@ FROM
 WHERE
     title LIKE '%armageddon%';
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393411-13ba8c52-80dc-4ac2-9b2a-1c442a3b80b1.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 
@@ -67,6 +74,8 @@ FROM
 WHERE
     title REGEXP 'apollo';
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393416-e629a59a-a24c-472c-aa96-a55d02feb75e.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 5. #### Get all films which title ends with APOLLO
@@ -78,6 +87,8 @@ FROM
 WHERE
     title REGEXP 'apollo$';
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393422-b87771c1-d0c3-42ae-9569-85982ec803de.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 6. #### Get all films with word DATE in the title
@@ -89,6 +100,8 @@ FROM
 WHERE
     title REGEXP 'date';
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393430-065a6097-a9eb-406b-a999-b525eb991920.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 7. #### Get 10 films with the longest title
@@ -103,6 +116,8 @@ ORDER BY
 LIMIT
     10;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393444-d073f5ac-6582-4512-8805-4796d1cf96ea.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 8. #### Get 10 the longest films
@@ -117,6 +132,8 @@ ORDER BY
 LIMIT
     10;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393454-fc041d5f-a095-4c66-bc5c-6f5f7492eac7.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 9.  #### How many films include Behind the Scenes content
@@ -129,6 +146,8 @@ FROM
 WHERE
     special_features REGEXP 'behind the scenes';
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393470-27e339a1-1342-4226-8c9c-1c9c5386cd94.png)
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 10. #### List films ordered by release year and title in alphabetical order
@@ -141,6 +160,9 @@ FROM
 ORDER BY
     title ASC;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147393487-d814a396-0ac6-4ef7-9bc6-bc80001b1e05.png)
+
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 
