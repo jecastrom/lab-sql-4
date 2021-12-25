@@ -18,7 +18,7 @@ The database is structured as follows:
 6. Get all films with word DATE in the title.
 7. Get 10 films with the longest title.
 8. Get 10 the longest films.
-9. How many films include **Behind the Scenes** content?
+- <a href="#How-many-films-include-Behind-the-Scenes-content?">How many films include Behind the Scenes content?</a>
 - <a href="#List-films-ordered-by-release-year-and-title-in-alphabetical-order">List films ordered by release year and title in alphabetical order</a>
 
 
@@ -111,7 +111,7 @@ LIMIT
     10;
 ```
 
-9.  How many films include **Behind the Scenes** content?
+9.  #### How many films include Behind the Scenes content?
 ```sql
 SELECT
     title AS 'Film Title',
