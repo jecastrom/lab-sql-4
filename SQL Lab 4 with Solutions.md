@@ -10,7 +10,7 @@ The database is structured as follows:
 <br></br>
 
 ### Instructions
-<a href="#1.-Get-film-ratings.">1. Get film ratings.</a>
+- <a href="#1.-Get-film-ratings.">1. Get film ratings.</a>
 2. Get release years.
 3. Get all films with ARMAGEDDON in the title.
 4. Get all films with APOLLO in the title
@@ -19,7 +19,7 @@ The database is structured as follows:
 7. Get 10 films with the longest title.
 8. Get 10 the longest films.
 9. How many films include **Behind the Scenes** content?
-10. List films ordered by release year and title in alphabetical order.
+- <a href="#List-films-ordered-by-release-year-and-title-in-alphabetical-order.">List films ordered by release year and title in alphabetical order.</a>
 
 
 
@@ -122,7 +122,7 @@ WHERE
     special_features REGEXP 'behind the scenes';
 ```
 
-10. List films ordered by release year and title in alphabetical order.
+10. #### List films ordered by release year and title in alphabetical order.
 ````sql
 SELECT
     release_year,
