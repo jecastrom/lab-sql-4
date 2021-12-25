@@ -179,6 +179,9 @@ ORDER BY
 <img src="https://user-images.githubusercontent.com/63274055/147393487-d814a396-0ac6-4ef7-9bc6-bc80001b1e05.png" alt="Drawing" style="width: 350px;"/>
 
 
+
+<a href="https://github.com/jecastrom/lab-sql-4/blob/835b02b26cd1cf9b728368423d32502be1f8c0a3/Files_for_lab/SQL%20Lab%204%20code%20only.sql">SQL Lab 4 solutions script only on .sql file CLICK HERE</a>
+
 <a href="#Lab-SQL-Queries-4">Go to top</a>
 
 
