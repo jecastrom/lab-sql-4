@@ -19,7 +19,7 @@ The database is structured as follows:
 7. Get 10 films with the longest title.
 8. Get 10 the longest films.
 9. How many films include **Behind the Scenes** content?
-- <a href="#List-films-ordered-by-release-year-and-title-in-alphabetical-order.">List films ordered by release year and title in alphabetical order.</a>
+- <a href="#List-films-ordered-by-release-year-and-title-in-alphabetical-order">List films ordered by release year and title in alphabetical order</a>
 
 
 
@@ -122,7 +122,7 @@ WHERE
     special_features REGEXP 'behind the scenes';
 ```
 
-10. #### List films ordered by release year and title in alphabetical order.
+10. #### List films ordered by release year and title in alphabetical order
 ````sql
 SELECT
     release_year,
