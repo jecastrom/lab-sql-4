@@ -7,7 +7,7 @@ In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/
 The database is structured as follows:
 ![DB schema](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/database-sakila-schema.png)
 
-<br><br>
+<br></br>
 
 ### Instructions
 
