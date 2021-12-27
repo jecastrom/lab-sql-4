@@ -9,7 +9,8 @@ In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/
 
 The database is structured as follows:
 
-![dvdrental](https://user-images.githubusercontent.com/63274055/147393369-d19b9c63-4080-40b9-afd3-ce108a62e385.png)
+<img src="https://user-images.githubusercontent.com/63274055/147393369-d19b9c63-4080-40b9-afd3-ce108a62e385.png" alt="Drawing" style="width: 500px;"/>
+
 
 <br></br>
 
